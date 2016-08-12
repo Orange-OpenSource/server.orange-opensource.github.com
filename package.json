@@ -16,7 +16,9 @@
     "request": "2.26.x",
     "restify": "2.6.x",
     "newrelic": "1.x.x",
-    "pm2": "0.7.x"
+    "pm2": "0.7.x",
+    "cfenv": "1.0.3",
+    "is-cloudfoundry": "0.1.1"
   },
   "devDependencies": {
     "mocha": "1.11.x",

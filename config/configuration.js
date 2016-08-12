@@ -42,18 +42,19 @@ var defFreqReload = 15;
 
 // main http error display function
 function errorLog(url, res, err) {
-  console.log('error for ', url, ' : ', res.statusCode, ' : ', res.body, ' : ', err, ',', (new Date()).toString());
+    console.log('error for ', url, ' : ', res.statusCode, ' : ', res.body, ' : ', err, ',', (new Date()).toString());
 };
 
 // Exports configuration for use by app.js
 module.exports = {
-  env: node_env,
-  port: process.env.PORT || default_port,
-  user: process.env.GHUSER,
-  pass: process.env.GHPASS,
-  crossOrigin: crossOrigin,
-  dir: dir,
-  errorLog: errorLog,
-  freqReload: process.env.GHFREQRELOAD || defFreqReload,
-  server: server
+    env: node_env,
+    port: process.env.PORT || default_port,
+    user: process.env.GHUSER,
+    pass: process.env.GHPASS,
+    org: process.env.GHORG,
+    crossOrigin: crossOrigin,
+    dir: dir,
+    errorLog: errorLog,
+    freqReload: process.env.GHFREQRELOAD || defFreqReload,
+    server: server
 };

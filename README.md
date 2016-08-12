@@ -12,7 +12,7 @@ Step to install it:
 
 1. clone this repo: `$ git clone https://github.com/Orange-OpenSource/server.orange-opensource.github.com.git`
 2. enter the new directory created in command line: `$ cd server.orange-opensource.github.com`
-3. edit the `manifest.yml` file (*mostly what is inside `env:`*)
+3. edit the `manifest.yml` file (**mostly what is inside `env:`**)
 4. target your Cloud Foundry with `cf login`
 5. push your app by running command line `cf push`
 

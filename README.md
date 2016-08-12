@@ -9,6 +9,7 @@ This version of server.adobe.github.com as been made to be runnable on Cloud Fou
 file has been provided to help you to push this app on cloud foundry.
 
 Step to install it:
+
 1. clone this repo: `$ git clone https://github.com/Orange-OpenSource/server.orange-opensource.github.com.git`
 2. enter the new directory created in command line: `$ cd server.orange-opensource.github.com`
 3. edit the `manifest.yml` file (*mostly what is inside `env:`*)

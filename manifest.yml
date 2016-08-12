@@ -1,0 +1,10 @@
+name: org-retriever-orange
+memory: 256M
+instances: 1
+path: ./
+buildpack: nodejs_buildpack
+disk_quota: 1024M
+env:
+  GHORG: org-which-contain-frontend #e.g. for orange: Orange-OpenSource
+  GHUSER: mygithubuser # a github username admin user
+  GHPASS: mygithubpassword # a github password admin user
